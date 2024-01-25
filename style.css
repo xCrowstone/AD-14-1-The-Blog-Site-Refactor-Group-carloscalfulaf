@@ -3,6 +3,18 @@ html {
   width: 100%;
 }
 
+.navbar.navbar-expand-lg{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #CEFF24;
+}
+.navbar-nav .nav-link {
+  font-size: 20px; /* Ajusta el tamaño de la letra según tus preferencias */
+  margin-right: 20px; /* Ajusta el espacio entre los elementos según tus preferencias */
+}
+
 footer {
   background-color: #CEFF24;
   padding: 12px; /* Añade relleno para mejorar la apariencia */
